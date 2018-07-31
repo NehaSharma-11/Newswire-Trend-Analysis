@@ -3,8 +3,11 @@
 mySolution- bash file to run some installations and execute the command
 
 Sample run -
-  ./mySolution "<start-date>" "<end-date>"
-  (Example- ./mySolution "21 July 2018" "31 July 2018")
+  
+  ./mySolution.sh "start-date" "end-date"
+  
+  (Example- ./mySolution.sh "21 July 2018" "31 July 2018")
+  
   default:
     start-date = today - 7 days
     end-date = today
