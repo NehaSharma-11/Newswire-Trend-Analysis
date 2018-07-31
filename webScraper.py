@@ -107,8 +107,6 @@ def loc_Regex(sequence):
     if matchObj:
     	loc = matchObj.group(1)
     	date = matchObj.group(3)
-    if loc == ' ':
-    	print(sequence)
     return loc
 
 def cat_Regex(sequence):
