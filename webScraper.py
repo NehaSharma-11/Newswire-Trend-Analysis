@@ -23,7 +23,7 @@ daysGap = 7
 args = sys.argv
 start = datetime.today()
 end = datetime.today() - timedelta(days=daysGap)
-#print(len(args))
+#print("**********************",len(args))
 if len(args) > 3:
 	print("Please provide start and end date in double quotes")
 	raise ValueError("Incorrect date format for either or both start and end date")
@@ -44,8 +44,8 @@ if len(args)>2:
 		print("Can not parse end as date, Please provide in MM-DD-YYYY format")
 		raise
 
-#print("start",start)
-#print("end",end)
+print("Start Date- ",start)
+print("End Date- ",end)
 
 if start == end:
 	print("Start date and end date can not be same")
